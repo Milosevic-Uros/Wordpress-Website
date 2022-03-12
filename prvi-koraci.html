@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Đorđe Jovanović">
+    <meta name="author" content="Bojana Bogićević">
+    <meta name="author" content="Uroš Milošević">
+    <meta name="author" content="Veljko Vulić">
+    <meta name="description"
+      content="Sajt - Prezentacija Wordpress tehnologije, napravljen kao projekat za predmet Web Tehnologije na Fakultetu Tehničkih nauka u Čačku.">
+    <meta name="keywords" content="Wordpress, Wordpress.org, CMS, CSS, Getting started, JavaScript, JS, jQuery, HTML, SCSS, Responsive, Mobile,
+          Documentation, Quick start, Wordpress Themes">
+    <title>Wordpress - Prvi koraci</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/css/style.min.css">
+</head>
+<body>
+    <!-- Go to top button -->
+  <a id="btn-to-top">
+    <img src="assets/images/chevron-up.svg" width="48px" alt="Scroll to top button">
+  </a>
+  <!-- Navigation -->
+  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img id="navbar-logo" src="assets/images/WordPress-logotype-standard.png" width="150px" class="d-inline-block align-top" alt="Wordpress logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="istorija.html">Istorija</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="prvi-koraci.html">Prvi koraci <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija-tema.html">Galerija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="poredjenje-cms.html">Poređenje CMS-ova</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="o-timu.html">O timu</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-nav my-2 my-sm-0" href="prvi-koraci.html">Prvi koraci</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Jumbotron section -->
+  <div class="jumbotron jumbotron-fluid jumbotron-section  d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col">
+          <h1 class="jumbotron-heading">Želite da napravite svoj web-sajt brzo i jednostavno? </h1>
+          <p class="jumbotron-text">Upoznajte najpopularniji sistem koji Vam to omogućuje - WordPress.org<br>
+            Kako biste započeli rad sa WordPress-om, potrebno je da pratite nekoliko koraka. Pored toga što je WordPress besplatan sistem za upravljanje sadržajem, on je i veoma jednostavan za korišćenje. 
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features section -->
+  <div class="features-section">
+    <div class="container">
+      <div class="row heading-wrapper">
+        <h2 class="features-heading">
+          Odlike WordPress-a
+        </h2>
+      </div>
+      <div class="row align-items-center">
+        <div class="features-left col-12 col-lg-5">
+          <div class="row">
+            <div class="features-image col-2">
+              <img src="assets/images/settings.svg" alt="Features settings" class="features-item-image">
+            </div>
+            <div class="features-text col-10">
+              <p class="features-left-heading">Zahtevi</p>
+              <p class="features-left-text">Potreban Vam je Login account (korisničko ime i šifra) ka serveru preko FTP ili shell-a
+                Program za izmenu teksta
+                FTP koji će Vam biti potreban za upload-ovanje datoteka, možete koristiti FileZilla.
+                Pretraživač po izboru (Google Chrome, Mozilla Firefox, Opera...)
+                Za serversku stranu potrebna je PHP verzija 7.4 ili novija, MySQL verzija 5.7 ili MariaDB verzija 10.2 ili novija.
+                </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="features-image col-2">
+              <img src="assets/images/download.svg" alt="Features settings" class="features-item-image">
+            </div>
+            <div class="features-text col-10">
+              <p class="features-left-heading">Preuzimanje i Instalacija</p>
+              <p class="features-left-text">Instalacija je jednostavna. Štaviše mnogi web host-ovi nude alate poput Fantastico koji automatski instaliraju WordPress, tako da je instalacija gotova za 5 minuta. Ukoliko želite da sami instalirate WordPress predlažemo da pre svega preuzmete WordPress paket i pratite detaljno uputstvo koje se nalazi na zvaničnom sajtu Wordpress.org. 
+                </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="features-image col-2">
+              <img src="assets/images/book-open.svg" alt="Features settings" class="features-item-image">
+            </div>
+            <div class="features-text col-10">
+              <p class="features-left-heading">Osnovne korišćenja</p>
+              <p class="features-left-text">Kada ste završili Vašu instalaciju biće neophodno da se prijavite kao admin. Kada ste to učinili biće vam omogućeno da menjate podešavanja, izgled i funkcionalnost Vašeg web-sajta. Možete isprobavati različite stvari, WordPress pruža veliki broj tema i šablona koje možete koristiti za Vaš web-sajt
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="features-right col-12 col-lg-7 d-flex justify-content-end align-items-center">
+          <img src="assets/images/features-image.png" class="features-image" alt="Features image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Functionality section -->
+<div class="functionality-section">
+  <div class="container">
+      <h3 class="functionality-header">Funkcionalnost WordPress-a</h3>
+      <p class="functionality-text mt-4">WordPress je sistem koji pruža veliki broj tema, više od 9000 besplatnih tema. Ne samo da možete da izaberete temu koja Vam se dopada, već ukoliko ne postoji tema koja odgovara Vašim potrebama možete i da kreirate Vašu temu i dodate je u zvanični WordPress.org repozitorijum tema. Wordpress takođe omogućava da ukoliko u nekom trenutku želite da dodate nešto na Vašu temu ili je kompletno promenite, možete to uraditi bez gubitka podataka koje ste već uneli.</p>
+  </div>
+</div>
+
+<!-- Communication section -->
+<div class="communication-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="communication-left col-12 col-lg-6">
+        <img src="assets/images/online-discussion.svg" alt="Online discussion" class="communication-image">
+      </div>
+      <div class="communication-right col-12 col-lg-6">
+        <h4 class="communication-header">Komunicirajte sa ostalim korisnicima/WordPress Foruma</h4>
+        <p class="communication-text mt-4">WordPress zajednica ima veliki broj foruma koje možete da posetite ukoliko imate bilo kakva pitanja vezana za Instalaciju, rešavanje nekog problema, povezivanja, tema i plugin-ova, ali i svega ostalog što Vam WordPress omogućava.</p>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-nav my-2 my-sm-0 communication-button" href="https://wordpress.org/support/forums/" target="_blank">Wordpress forum</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Questions section  -->
+<div class="questions-section">
+  <div class="container">
+    <div class="column text-center">
+      <h5 class="questions-header mb-4">Često postavljana pitanja</h5>
+      <p class="questions-text mb-4">Pronađite odgovore na najčešća pitanja koja korisnici Wordpress-a postavljaju</p>
+
+      <div class="questions-accordion">
+          <button class="accordion">Šta mi je potrebno da pokrenem WordPress? <img class="accordion-image"src="assets/images/plus-circle.svg" alt="plus-cicle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">Potrebno Vam je da su podržani:<br>
+              •	PHP verzija 7.2+<br>
+              •	MySQL verzija 5.6+ ili MariaDB verzija 10.0+<br>
+              •	Podrška za HTTPS<br>
+              •	Bilo koji server koji podržava PHP ili MySQL<br>
+              </p>
+          </div>
+  
+          <button class="accordion">Koji plugin-ovi su dostupni na Wordpress-u?<img class="accordion-image" src="assets/images/plus-circle.svg" alt="plus-cicle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">WordPress nudi veliki izbor plugin-ova koji omogućavaju maksimalnu fleksibilnost što se tiče kreiranja web-sajta. Možete dodati plugin-ove poput spam protekcije, kompleksne galerije, kalendari, forumi...</p>
+          </div>
+  
+          <button class="accordion">Gde se čuvaju informacije i sadržaj sa mog WordPress-a?<img class="accordion-image" src="assets/images/plus-circle.svg" alt="plus-cicle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">Informacije i sadržaj se čuvaju na MySQL serveru. Vaš sadržaj je veoma zaštićen.</p>
+          </div>
+  
+          <button class="accordion">Koja je razlika između WordPress.com i WordPress.org?<img class="accordion-image" src="assets/images/plus-circle.svg" alt="plus-cicle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">Razlika između Wordpress.com i WordPress.org se javlja prilikom hostovanja Vašeg web-sajta. Kod WordPress.org ste baš Vi ti koji hostujete dok kod WordPress.com oni hostuju Vaš web-sajt.</p>
+          </div>
+  
+          <button class="accordion">Da li je moj sajt zaštićen?<img class="accordion-image" src="assets/images/plus-circle.svg" alt="plus-cicle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">Da, Vaš web-sajt je bezbedan, odnosno zaštićen, ali kao i uvek preporučuje se da redovno ažurirate Vaš WordPress kako biste smanjili mogućnost neželjenog pristupa odnosno hakovanja.</p>
+          </div>
+
+          <button class="accordion">Da li plugin-ovi koji su deaktivirani usporavaju WordPress web-sajt?<img src="assets/images/plus-circle.svg"  class="accordion-image" alt="plus-circle"></button>
+          <div class="accordion-panel">
+            <p class="accordion-text">Zapravo WordPress ne pravi razliku između plugin-ova koji nisu aktivirani i onih koji su nekad bili aktivirani. On učitava samo aktivne plugin-ove tako da je odgovor ne. Deaktivirani plugin-ovi pri učitavanju su posmatrani kao da oni ne postoje.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+  <!-- Footer section -->
+  <div class="footer">
+    <div class="container">
+      <!-- Top footer part -->
+      <div class="row">
+        <div class="col text-center">
+          <img src="assets/images/WordPress-logotype-standard-white.png" width="240px" alt="Wordpress logo">
+        </div>
+      </div>
+      <!-- Footer navigation links -->
+      <div class="row">
+        <div class="footer-nav col">
+          <ul class="footer-nav-list d-flex justify-content-around mt-5">
+            <li class="footer-nav-item"><a class="footer-nav-link" href="index.html">Početna</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-link" href="istorija.html">Istorija</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-link" href="prvi-koraci.html">Prvi koraci</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-link" href="galerija-tema.html">Galerija</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-link" href="poredjenje-cms.html">Poređenje CMS-ova</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-link" href="o-timu.html">O timu</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row separator"></div>
+      <!-- Footer Copyright -->
+      <div class="row copyright justify-content-between">
+        <p class="copy-text">
+          ©2022 Za potrebe predmeta Web Tehnologije. Sva prava zadržana.
+        </p>
+        <!-- Footer social links -->
+        <ul class="copy-list d-flex">
+          <li class="copy-list-item">
+            <a href="https://www.facebook.com/WordPress/" target="_blank" class="copy-list-link">
+              <img src="assets/images/facebook.svg" alt="Facebook logo">
+            </a>
+          </li>
+          <li class="copy-list-item">
+            <a href="https://www.instagram.com/wordpressdotcom" target="_blank" class="copy-list-link">
+              <img src="assets/images/instagram.svg" alt="Instagram logo">
+            </a>
+          </li>
+          <li class="copy-list-item">
+            <a href="https://twitter.com/WordPress" target="_blank" class="copy-list-link">
+              <img src="assets/images/twitter.svg" alt="Twitter logo">
+            </a>
+          </li>
+          <li class="copy-list-item">
+            <a href="https://www.youtube.com/c/WordPress" target="_blank" class="copy-list-link">
+              <img src="assets/images/youtube.svg" alt="Youtube logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Scroll Reveal -->
+  <script src="assets/scripts/scrollreveal.min.js"></script>
+  <!-- Custom script -->
+  <script src="assets/scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Twenty Twenty-Two",
+    "desc": "Tema je dizajnirana da u potpunosti iskoristi prednosti editovanja celog web-sajta, odnosno svaki aspekt web-sajta može biti izmenjen na pojedinačnim stranicama  što uključuje boju, fontove ali čak i dizajn.",
+    "free": true,
+    "link": "https://i.imgur.com/ROf4EYu.png"
+  },
+  {
+    "id": 2,
+    "name": "Twenty Twenty-One",
+    "desc": "Tema je napravljena tako da se fokus stavlja na korisnika. Korisnik može da pravi svoju šemu na podlozi koja je obojena blagim bojama što posetiocima ostavlja dobar prvi utisak. Pogodna je za pravljenje kako personalnih portfolia, blogova ali i poslovnih web-sajtova.",
+    "free": false,
+    "link": "https://i.imgur.com/Hvljvbc.png"
+  },
+  {
+    "id": 3,
+    "name": "Astra",
+    "desc": "Tema je brza i u potpunosti editabilna, pogodna za blog, portfolio, poslovni web-sajt ali i WooCommerce prodavnice. Na frontend-u zauzima svega 50KB i optimizovana je.",
+    "free": true,
+    "link": "https://i.imgur.com/6E4oqwU.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Hello Elementor",
+    "desc": "Tema je jednostavna i koncizna. Laka za korišćenje i prilagođena svim vrstama korisnika. Sa ovakvom “plain-vanilla” se nikad ne može pogrešiti.",
+    "free": false,
+    "link": "https://i.imgur.com/7JBdOrL.png"
+  },
+  {
+    "id": 5,
+    "name": "Twenty Twenty",
+    "desc": "Tema je napravljena za godinu 2020, koristi se fleksibilnost blok editora. Korisnici mogu da naprave dinamične šeme za svoje web-sajtove. Postoji mogućnost I promene boja koje se koriste u ovoj temi, izborom jedne boje se generišu pogodne boje koje bi se uparile sa izabranom.",
+    "free": true,
+    "link": "https://i.imgur.com/8BWW7e8.png"
+  },
+  {
+    "id": 6,
+    "name": "Twenty Seventeen",
+    "desc": "Tema je napravljena tako da je najpogodnija za poslovne web-sajtove, podeljena je na sekcije. Kao i većina tema Wordpress-a može se personalizovati tako što se menjaju boje i formatira sadržaj na stranici.",
+    "free": true,
+    "link": "https://i.imgur.com/nFn0NKU.png"
+  },
+  {
+    "id": 7,
+    "name": "OceanWP",
+    "desc": "Brza, responzivna tema koja je pogodna za projekte i stranice prodavnica. Izgleda besprekorno na bilo kom uređaju, tako da se može podešavati čak i sa tableta i telefona.",
+    "free": false,
+    "link": "https://i.imgur.com/QwGKNMf.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Twenty Nineteen",
+    "desc": "Moderan dizajn koji sadrži editabilne stilove za sve blokove, napravlje tako da prikaz u editoru je zapravo izgled buduće stranice. Ovaj element omogućava lakše upravljanje sadržajem.Tema je u potpunosti responzivna, koristi fontove sans-serif za naslove I klasične serif fontove za opisni tekst.",
+    "free": false,
+    "link": "https://i.imgur.com/fqaeFTY.png"
+  },
+  {
+    "id": 9,
+    "name": "Neve",
+    "desc": "Tema je namenjena za više vrsta web-sajtova. Savršena je za blogove, male kompanije, start-up, agencije... Neverovatna brzina omogućava učitavanje stranice olakšanim, pogodna je za sve uređaje što je čini u potpunosti responzivnom. Dizajn je minimalističan što doprinosi njenom modernom izgledu.",
+    "free": true,
+    "link": "https://i.imgur.com/7fdnHPX.png"
+  }
+]
